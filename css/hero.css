@@ -1,0 +1,457 @@
+.hero {
+    background-color: #FFDB67;
+    min-height: 56vh;
+    display: grid;
+    padding-top: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 1000px) {
+    .hero {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero-content {
+        order: 2;
+    }
+
+    .hero-image {
+        order: 1;
+    }
+
+    .hero-image img {
+        width: 40%;
+        border-radius: 50%;
+        border: 7px solid black;
+        box-shadow: 8px 10px #ddaa01 !important;
+    }
+
+    .hero .hero-content {
+        display: flex;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15%;
+    }
+}
+
+@media(max-width: 470px){
+    .hello{
+        font-size: 16px !important;
+    }
+    .hero-content h1{
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+}
+
+.hero .hero-content {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 15%;
+}
+
+.hero-content .hello {
+    background-color: black;
+    padding: 6px 10px;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.hero-content h1 {
+    font-size: 75px;
+    letter-spacing: 2px;
+    line-height: 80px;
+    text-shadow: 5px 5px #ddaa01;
+}
+
+.hero .hero-image {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    max-width: 63%;
+    border-radius: 50%;
+    border: 7px solid black;
+    box-shadow: 18px 22px #ddaa01;
+}
+
+#type::after {
+    letter-spacing: 3px;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    content: " ";
+    animation: typing 9s infinite linear;
+}
+
+@keyframes typing {
+    0% {
+        content: "W";
+    }
+
+    1% {
+        content: "We";
+    }
+
+    2% {
+        content: "Web";
+    }
+
+    3% {
+        content: "Web ";
+    }
+
+    4% {
+        content: "Web D";
+    }
+
+    5% {
+        content: "Web De";
+    }
+
+    6% {
+        content: "Web Dev";
+    }
+
+    7% {
+        content: "Web Deve";
+    }
+
+    8% {
+        content: "Web Devel";
+    }
+
+    9% {
+        content: "Web Develo";
+    }
+
+    10% {
+        content: "Web Develop";
+    }
+
+    11% {
+        content: "Web Develope";
+    }
+
+    12% {
+        content: "Web Developer";
+    }
+
+    13% {
+        content: "Web Developer";
+    }
+
+    14% {
+        content: "Web Developer";
+    }
+
+    15% {
+        content: "Web Developer";
+    }
+
+    16% {
+        content: "Web Develope";
+    }
+
+    17% {
+        content: "Web Develop";
+    }
+
+    18% {
+        content: "Web Develo";
+    }
+
+    19% {
+        content: "Web Devel";
+    }
+
+    20% {
+        content: "Web Deve";
+    }
+
+    21% {
+        content: "Web Dev";
+    }
+
+    22% {
+        content: "Web De";
+    }
+
+    23% {
+        content: "Web D";
+    }
+
+    24% {
+        content: "Web ";
+    }
+
+    25% {
+        content: "Web";
+    }
+
+    26% {
+        content: "We";
+    }
+
+    27% {
+        content: "W";
+    }
+
+    28% {
+        content: "W";
+    }
+
+    29% {
+        content: "U";
+    }
+
+    33% {
+        content: "UI";
+    }
+
+    34% {
+        content: "UI/";
+    }
+
+    35% {
+        content: "UI/U";
+    }
+
+    36% {
+        content: "UI/UX";
+    }
+
+    37% {
+        content: "UI/UX ";
+    }
+
+    38% {
+        content: "UI/UX D";
+    }
+
+    39% {
+        content: "UI/UX De";
+    }
+
+    40% {
+        content: "UI/UX Des";
+    }
+
+    41% {
+        content: "UI/UX Desi";
+    }
+
+    42% {
+        content: "UI/UX Desig";
+    }
+
+    43% {
+        content: "UI/UX Design";
+    }
+
+    44% {
+        content: "UI/UX Designe";
+    }
+
+    45% {
+        content: "UI/UX Designer";
+    }
+
+    46% {
+        content: "UI/UX Designer";
+    }
+
+    47% {
+        content: "UI/UX Designer";
+    }
+
+    48% {
+        content: "UI/UX Designe";
+    }
+
+    49% {
+        content: "UI/UX Design";
+    }
+
+    50% {
+        content: "UI/UX Desig";
+    }
+
+    51% {
+        content: "UI/UX Desi";
+    }
+
+    52% {
+        content: "UI/UX Des";
+    }
+
+    53% {
+        content: "UI/UX De";
+    }
+
+    54% {
+        content: "UI/UX D";
+    }
+
+    55% {
+        content: "UI/UX ";
+    }
+
+    56% {
+        content: "UI/UX";
+    }
+
+    57% {
+        content: "UI/U";
+    }
+
+    58% {
+        content: "UI/";
+    }
+
+    59% {
+        content: "UI";
+    }
+
+    60% {
+        content: "U";
+    }
+
+    61% {
+        content: "U";
+    }
+
+    62% {
+        content: "P";
+    }
+
+    67% {
+        content: "Pr";
+    }
+
+    68% {
+        content: "Pro";
+    }
+
+    69% {
+        content: "Prod";
+    }
+
+    70% {
+        content: "Produ";
+    }
+
+    71% {
+        content: "Produc";
+    }
+
+    72% {
+        content: "Product";
+    }
+
+    73% {
+        content: "Product ";
+    }
+
+    74% {
+        content: "Product C";
+    }
+
+    75% {
+        content: "Product Cr";
+    }
+
+    76% {
+        content: "Product Cre";
+    }
+
+    77% {
+        content: "Product Crea";
+    }
+
+    78% {
+        content: "Product Creat";
+    }
+
+    79% {
+        content: "Product Creato";
+    }
+
+    80% {
+        content: "Product Creator";
+    }
+
+    81% {
+        content: "Product Creator";
+    }
+
+    82% {
+        content: "Product Creato";
+    }
+
+    83% {
+        content: "Product Creat";
+    }
+
+    84% {
+        content: "Product Crea";
+    }
+
+    85% {
+        content: "Product Cre";
+    }
+
+    86% {
+        content: "Product Cr";
+    }
+
+    87% {
+        content: "Product C";
+    }
+
+    88% {
+        content: "Product ";
+    }
+
+    89% {
+        content: "Product";
+    }
+
+    90% {
+        content: "Produc";
+    }
+
+    91% {
+        content: "Produ";
+    }
+
+    92% {
+        content: "Prod";
+    }
+
+    93% {
+        content: "Pro";
+    }
+
+    94% {
+        content: "Pr";
+    }
+
+    95% {
+        content: "P";
+    }
+
+    100% {
+        content: "W";
+    }
+}

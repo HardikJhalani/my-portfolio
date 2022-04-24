@@ -1,0 +1,29 @@
+.stats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+@media (max-width: 600px){
+    .item p{
+        font-size: 13px !important;
+    }
+    .item{
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+.stats .item{
+    text-align: center;
+}
+
+.stats .item h2{
+    font-size: 30px;
+}
+
+.stats .item p{
+    font-size: 15px;
+}

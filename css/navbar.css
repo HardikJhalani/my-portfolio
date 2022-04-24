@@ -1,10 +1,10 @@
-.after{
+.after {
     /* visibility: hidden; */
     opacity: 0;
     position: relative;
 }
 
-.mobile-nav{
+.mobile-nav {
     margin: 10px 0;
     position: fixed;
     top: 0;
@@ -18,7 +18,7 @@
     gap: 10px;
 }
 
-.mobile-nav a{
+.mobile-nav a {
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -28,12 +28,12 @@
     padding: 2px 8px;
 }
 
-.mobile-nav a:hover{
+.mobile-nav a:hover {
     color: white;
     background-color: black;
 }
 
-.mobile-nav .button{
+.mobile-nav .button {
     color: white;
     margin-top: 20px;
     background-color: black;
@@ -42,11 +42,11 @@
     margin-bottom: 20px;
 }
 
-.mobile-nav .button:hover{
+.mobile-nav .button:hover {
     transform: scale(1.04);
 }
 
-nav{
+nav {
     position: sticky;
     z-index: 5;
     top: 0;
@@ -58,54 +58,61 @@ nav{
     grid-template-columns: 200px 1fr 200px;
 }
 
-i{
+i {
     font-size: 30px;
     cursor: pointer;
 }
 
-@media(max-width: 1000px){
-    .nav-items{
+@media(max-width: 1000px) {
+    .nav-items {
         display: none;
     }
-    .connect a{
+
+    .connect a {
         display: none;
     }
-    nav{
+
+    nav {
         grid-template-columns: 1fr 50px;
     }
-    .logo{
+
+    .logo {
         justify-content: start !important;
     }
-    .connect{
+
+    .connect {
         justify-content: end !important;
     }
 }
-@media (min-width: 1000px){
-    i{
+
+@media (min-width: 1000px) {
+    #click {
         visibility: hidden;
+        /* opacity: 0; */
     }
-    .after{
+
+    .after {
         visibility: hidden;
     }
 }
 
-nav .logo{
+nav .logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-nav .logo img{
+nav .logo img {
     width: 180px;
     height: 70px;
 }
 
-.nav-items{
+.nav-items {
     margin: 0 20px;
     height: 70px;
 }
 
-.nav-items ul{
+.nav-items ul {
     height: 70px;
     display: flex;
     align-items: center;
@@ -113,11 +120,11 @@ nav .logo img{
     list-style: none;
 }
 
-.nav-items ul li{
+.nav-items ul li {
     margin-right: 14px;
 }
 
-.nav-items ul li a{
+.nav-items ul li a {
     padding: 4px 8px;
     text-decoration: none;
     color: black;
@@ -126,24 +133,24 @@ nav .logo img{
     border-radius: 14px;
 }
 
-.nav-items ul li a:hover{
+.nav-items ul li a:hover {
     background-color: black;
     color: white;
 }
 
-.active{
+.active {
     background-color: black;
     color: white !important;
 }
 
-.connect{
+.connect {
     display: flex;
     height: 70px;
     justify-content: center;
     align-items: center;
 }
 
-.connect a{
+.connect a {
     text-decoration: none;
     color: white;
     padding: 8px 20px;
@@ -153,7 +160,7 @@ nav .logo img{
     transition: 0.3s;
 }
 
-.connect a:hover{
+.connect a:hover {
     transform: scale(1.03);
     color: white;
 }
